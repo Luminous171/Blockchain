@@ -101,14 +101,14 @@ Congratulations, you successfully created your own private blockchain!
 ## Part 2: Explanation of Blockchain By A Beginner For Beginners
 
 ### Flags
---datadir: refers to the data directory of the node you are working with.
---unlock: specify the node you want to unlock but you still need to enter a password or refer to file that contains it (--password)
---mine: tells the node to begin mining
---rpc: Enables the HTTP-RPC server
---allow-insecure-unlock: Allows the user to unlock the node when account-related RPCs are exposed
---bootnodes: reference point to the bootnode
---ipcdisable: Diable the IPC disable (necessary for windows machines)
---syncmode: Use the parameter full if you have problems like I did
+1. datadir: refers to the data directory of the node you are working with.
+2. unlock: specify the node you want to unlock but you still need to enter a password or refer to file that contains it (--password)
+3. mine: tells the node to begin mining
+4. rpc: Enables the HTTP-RPC server
+5. allow-insecure-unlock: Allows the user to unlock the node when account-related RPCs are exposed
+6. bootnodes: reference point to the bootnode
+7. ipcdisable: Diable the IPC disable (necessary for windows machines)
+8. syncmode: Use the parameter full if you have problems like I did
 
 Use this resource (https://geth.ethereum.org/docs/interface/command-line-options) for additional flags.
 
